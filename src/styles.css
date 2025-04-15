@@ -1,0 +1,190 @@
+:root {
+  --color-text: #fff;
+  --color-background: #000;
+  --color-error: #e53e3e;
+  --spacing-base: 1rem;
+  --spacing-large: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: var(--color-text);
+  line-height: 1.5;
+  background-color: var(--color-background);
+}
+
+.map-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.tt {
+  font-family: "Tahoma", sans-serif;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #fff;
+
+  cursor: url('cursor.png'), auto;
+}
+
+.tt :focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: -1px;
+}
+
+.tt-dialog {
+  max-width: 472px;
+  background: #848484;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Header */
+.tt-header {
+  display: flex;
+  align-items: stretch;
+  background: #548414;
+  color: #fff;
+}
+
+.tt-header h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-size: inherit;
+  white-space: pre;
+}
+
+.tt-header h2 span {
+  color: #000;
+  text-shadow: none;
+}
+
+.tt-title {
+  flex: 1;
+  text-align: center;
+  text-shadow: 1px 1px 0 #000;
+  border: 1px outset #a8a8a8;
+}
+
+/* Body layout */
+.tt-body {
+  display: flex;
+  padding: 6px;
+  gap: 16px;
+  border: 1px outset #a8a8a8;
+}
+
+.tt-left {
+  text-align: center;
+}
+
+.tt-avatar {
+  width: 88px;
+  height: 115px;
+  display: block;
+  margin: 0 auto 4px;
+  border: 2px outset #d49c20;
+}
+
+.tt-manager .tt-name,
+.tt-manager .tt-role {
+  text-shadow: 1px 1px 0 #000;
+  color: #fff;
+}
+
+/* Info section */
+.tt-center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.label {
+  color: #fcc000;
+  font-weight: bold;
+  margin-right: 4px;
+  text-shadow: 1px 1px 0 #000;
+}
+
+.tt-row {
+  color: #fff;
+  text-shadow: 1px 1px 0 #000;
+}
+
+.tt-swatch {
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  background: #548414;
+  border: 1px solid #000;
+  vertical-align: middle;
+}
+
+/* Side buttons */
+.tt-button {
+  color: #000;
+  padding: 2px 6px;
+  background: #848484;
+  border: 1px outset #a8a8a8;
+  white-space: nowrap;
+
+  cursor: url('cursor.png'), auto;
+}
+
+.tt-button:active {
+  background: #949494;
+  border: 1px inset #a8a8a8;
+}
+
+.tt-close {
+  border: 1px outset #a8a8a8;
+  padding: 2px;
+  line-height: 1;
+  font-size: 13px;
+}
+
+.tt-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tt-side-button {
+  margin-bottom: 4px;
+}
+
+/* Footer */
+.tt-footer {
+  background: #848484;
+  display: flex;
+}
+
+.tt-footer button {
+  flex: 1;
+}
+
+.project-info {
+  width: 40px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.project-info .tt-body {
+  padding: 0;
+}
+
+.github-logo {
+  width: 100%;
+  height: 100%;
+}
