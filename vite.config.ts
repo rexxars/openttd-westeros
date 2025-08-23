@@ -1,7 +1,6 @@
 import {defineConfig} from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   server: {
@@ -11,4 +10,8 @@ export default defineConfig({
     outDir: 'dist',
   },
   publicDir: 'public',
+  preview: {
+    allowedHosts: ['rubysrealm.net'],
+    host: '0.0.0.0',
+  }
 })
