@@ -53,9 +53,5 @@ pnpm-lock.yaml
 # Compiled output
 /dist
 
-# Generated tiles/dzi
-/public/westeros.dzi
-/public/westeros_files
-
 # Vite stuff
 .vite
