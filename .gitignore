@@ -55,3 +55,9 @@ pnpm-lock.yaml
 
 # Vite stuff
 .vite
+
+# Tile garbage
+vips-properties.xml
+
+# Full map asset (too big for GH)
+assets/full.png
