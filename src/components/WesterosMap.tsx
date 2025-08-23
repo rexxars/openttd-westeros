@@ -2,6 +2,10 @@ import OpenSeadragon, {type Viewer} from 'openseadragon'
 
 import {useEffect} from 'react'
 
+function noop() {
+  // intentional noop
+}
+
 function getHashParams() {
   const hash = window.location.hash.substring(1)
   try {
@@ -18,6 +22,16 @@ function setHashParams(params: URLSearchParams) {
 }
 
 export function WesterosMap() {
+  useEffect(() => {
+    if (!window.location.hostname.includes('rubysrealm.net')) {
+      return noop
+    }
+
+    const ctrl = new AbortController()
+    fetch('/ping/westeros', {signal: ctrl.signal}).then(noop).catch(noop)
+    return () => ctrl.abort()
+  }, [])
+
   useEffect(() => {
     const viewer: Viewer = OpenSeadragon({
       id: 'westeros-viewer',
