@@ -15,7 +15,7 @@ Search and download it from the in-game "Online content" dialog! It should be li
 
 - Westeros: Ready to play, industries added, default settings.
 - Westeros: no industries. Same as above, but without industries. In case you want to add those yourself.
-- Westeros: 120 minutes pr. year. It's a big map! I personally find it more fun to slow down gameplay, allowing for more of the map to be built out.
+- Westeros: 2h/year. It's a big map! I personally find it more fun to slow down gameplay, allowing for more of the map to be built out.
 
 ## Inspiration/material
 
