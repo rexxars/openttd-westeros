@@ -1,8 +1,15 @@
-# openttd-westeros
-  
-Westeros inside of OpenTTD. A scenario. Preview the map [https://rubysrealm.net/westeros](here).
+# ASoIaF: Westeros
+
+Westeros, from the [A Song of Ice and Fire](https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire) / [Game of Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones) universe - inside of OpenTTD. A scenario. Preview the map [https://rubysrealm.net/westeros](here).
 
 The map was created through a rough heightmap that was "hand-made" based on the inspiration/material below (along with other sources), then hand-modelled/tuned in-game to achieve what we believe to be a playable and semi-canon scenario. Towns are placed as close to their "real" locations where _possible_, but some liberties have been taken where smaller towns are concerned - many aren't described apart from which region they are in.
+
+- **Size:** 2048x1024
+- **Climate:** Temperate
+
+## How to play
+
+Search and download it from the in-game "Online content" dialog! It should be listed as "ASoIaF: Westeros" (not to be confused with the older 512x512 "Westeros v1.1" scenario from another user).
 
 ## Variants
 
